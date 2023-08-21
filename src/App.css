@@ -1,0 +1,45 @@
+/* Header */
+header {
+  background-color: aqua;
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav  {
+  font-size: 30px;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  height: 100%;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  height: 100%;
+  display: inline-block;
+  margin: 0;
+  padding: 0 10px;
+}
+
+nav a:hover {
+  background-color: antiquewhite;
+}
+
+/* main page */
+main {
+  min-height: 73vh;
+}
+
+/* footer */
+
+footer {
+  background-color: black;
+  text-align: center;
+  padding: 50px;
+  color: white;
+}
