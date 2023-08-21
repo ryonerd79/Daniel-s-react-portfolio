@@ -10,6 +10,9 @@ function App() {
     <div className="App">
      <Header />
      <main>
+      <h2><About /></h2>
+      <h2><Contact /></h2>
+      <h2><Portfolio /></h2>
       </main>
       <Footer /> 
     </div>
