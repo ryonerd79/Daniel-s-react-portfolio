@@ -35,6 +35,11 @@ main {
   min-height: 73vh;
 }
 
+p {
+  padding: 20px;
+  margin: 10px;
+}
+
 /* footer */
 
 footer {

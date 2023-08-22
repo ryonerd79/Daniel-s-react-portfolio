@@ -11,6 +11,7 @@ function App() {
      <Header />
      <main>
       <h2><About /></h2>
+      <p>I am Daniel Roh</p>
       <h2><Contact /></h2>
       <h2><Portfolio /></h2>
       </main>
