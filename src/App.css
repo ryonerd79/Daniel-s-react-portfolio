@@ -26,7 +26,7 @@ nav a {
   padding: 0 10px;
 }
 
-/* nav a:hover { 
+ /* nav a:hover {  
   
 }*/
 
@@ -109,6 +109,42 @@ main {
   text-decoration: none;
 }
 
+/* Contact page */
+.contact_page form {
+  max-width: 500px;
+
+}
+
+input {
+  width: 100%;
+  padding: 8px 20px;
+  margin: 8px 0;
+
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 8px 20px;
+  margin: 8px 0;
+}
+
+button {
+  background-color: dodgerblue;
+  color: white;
+  padding: 12px 28px;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+label {
+  font-weight: 500;
+  font-size: 21px;
+}
+
 /* footer */
 
 footer {
@@ -116,4 +152,8 @@ footer {
   text-align: center;
   padding: 50px;
   color: white;
+}
+
+.resume-info ul {
+  list-style: none;
 }
