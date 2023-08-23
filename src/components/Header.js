@@ -1,11 +1,11 @@
 import React from 'react'
 import Navigation from './Navigation'
 
-function Header() {
+function Header({page, setPage}) {
   return (
     <header>
      <h1>Daniel</h1>
-     <Navigation/>   
+     <Navigation page={page} setPage={setPage}/>   
     </header>
   )
 }

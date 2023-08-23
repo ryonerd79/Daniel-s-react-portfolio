@@ -1,12 +1,12 @@
 import React from 'react'
 
-function Navigation() {
+function Navigation({page, setPage}) {
   return (
     <nav>
-     <a href="#">About Me</a>
-     <a href="#">Portfolio</a>
-     <a href="#">Contact</a>
-     <a href="#">Resume</a>
+     <a href="#" onClick={() => setPage('')} className={page===''?'active':''}>About Me</a>
+     <a href="#" onClick={() => setPage('portfolio')} className={page==='portfolio'?'active':''}>Portfolio</a>
+     <a href="#" onClick={() => setPage('contact')} className={page==='contact'?'active':''}>Contact </a>
+     <a href="#" onClick={() => setPage('resume')} className={page==='resume'?'active':''}>Resume</a>
     </nav>
   )
 }

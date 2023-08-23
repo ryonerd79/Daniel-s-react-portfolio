@@ -26,18 +26,87 @@ nav a {
   padding: 0 10px;
 }
 
-nav a:hover {
+/* nav a:hover { 
+  
+}*/
+
+.active {
   background-color: antiquewhite;
 }
 
 /* main page */
 main {
   min-height: 73vh;
+  padding: 20px 50px;
+}
+/* About page */
+.about_page h2 {
+    margin-bottom: 15px;
+    width: 200px;
+    text-align: center;
 }
 
-p {
-  padding: 20px;
-  margin: 10px;
+.about_page img {
+  width: 200px;
+  border-radius: 20px; 
+}
+
+.about_page p {
+  line-height: 2;
+  font-size: 20px;
+}
+
+/* Portfolio page */
+
+.portfolio_page h2 {
+  margin-bottom: 15px;
+}
+
+.portfolio_container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+
+}
+
+.project {
+  height: 300px;
+  width: 300px;
+  background-color: #ccc;
+  border-radius: 5px;
+}
+
+.portfolio_page h2 {
+  text-align: center;
+}
+
+.project img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 300px;
+  height: 250px;
+
+}
+
+.project h3 {
+  color: darkgreen;
+  padding: 0 10px;
+}
+
+.project div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project div a {
+  display: inline-block;
+  width: 49%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5px 10px;
+  text-decoration: none;
 }
 
 /* footer */
