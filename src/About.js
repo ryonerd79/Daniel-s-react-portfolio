@@ -1,10 +1,10 @@
 import React from 'react'
-
+import Profile from './assets/profile.jpg'
 function About() {
   return (
     <div className='about_page'>
       <h2>About Me</h2>
-      <img src="/profile.jpg" alt="My picture" />
+      <img src={Profile} alt="My picture" />
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
