@@ -26,9 +26,9 @@ nav a {
   padding: 0 10px;
 }
 
- /* nav a:hover {  
-  
-}*/
+  nav a:hover {  
+  background-color: rgb(228, 154, 88);
+}
 
 .active {
   background-color: antiquewhite;
@@ -125,7 +125,7 @@ input {
 textarea {
   width: 100%;
   height: 150px;
-  padding: 8px 20px;
+  padding: 8px 7px;
   margin: 8px 0;
 }
 
@@ -145,15 +145,26 @@ label {
   font-size: 21px;
 }
 
+/* Resume page */
+.resume-info h2 {
+  margin-top: 15px;
+}
+
+.resume-info ul {
+  list-style: none;
+}
+
 /* footer */
 
 footer {
   background-color: black;
   text-align: center;
-  padding: 50px;
-  color: white;
+  padding: 40px;
+  
 }
 
-.resume-info ul {
-  list-style: none;
+footer a {
+  color: white;
+  font-size: 45px;
+  margin-left: 10px;
 }
